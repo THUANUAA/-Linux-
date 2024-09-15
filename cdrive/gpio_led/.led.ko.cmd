@@ -1,0 +1,1 @@
+cmd_/home/interest/st_drive/cdrive/gpio_led/led.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/interest/st_drive/cdrive/gpio_led/led.ko /home/interest/st_drive/cdrive/gpio_led/led.o /home/interest/st_drive/cdrive/gpio_led/led.mod.o;  true

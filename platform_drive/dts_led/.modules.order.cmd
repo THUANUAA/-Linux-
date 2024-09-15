@@ -1,0 +1,1 @@
+cmd_/home/interest/st_drive/platform_drive/dts_led/modules.order := {   echo /home/interest/st_drive/platform_drive/dts_led/driver.ko; :; } | awk '!x[$$0]++' - > /home/interest/st_drive/platform_drive/dts_led/modules.order

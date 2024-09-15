@@ -1,0 +1,1 @@
+cmd_/home/interest/st_drive/cdrive/gpio_motor/modules.order := {   echo /home/interest/st_drive/cdrive/gpio_motor/motor.ko; :; } | awk '!x[$$0]++' - > /home/interest/st_drive/cdrive/gpio_motor/modules.order

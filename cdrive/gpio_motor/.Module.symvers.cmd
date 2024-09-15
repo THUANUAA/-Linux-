@@ -1,0 +1,1 @@
+cmd_/home/interest/st_drive/cdrive/gpio_motor/Module.symvers := sed 's/\.ko$$/\.o/' /home/interest/st_drive/cdrive/gpio_motor/modules.order | scripts/mod/modpost -m -a  -o /home/interest/st_drive/cdrive/gpio_motor/Module.symvers -e -i Module.symvers   -T -

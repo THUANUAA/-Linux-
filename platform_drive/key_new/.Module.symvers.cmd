@@ -1,0 +1,1 @@
+cmd_/home/interest/st_drive/platform_drive/key_new/Module.symvers := sed 's/\.ko$$/\.o/' /home/interest/st_drive/platform_drive/key_new/modules.order | scripts/mod/modpost -m -a  -o /home/interest/st_drive/platform_drive/key_new/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,1 @@
+cmd_/home/interest/st_drive/platform_drive/dts_key/driver.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/interest/st_drive/platform_drive/dts_key/driver.ko /home/interest/st_drive/platform_drive/dts_key/driver.o /home/interest/st_drive/platform_drive/dts_key/driver.mod.o;  true

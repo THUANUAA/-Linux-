@@ -1,0 +1,1 @@
+cmd_/home/interest/st_drive/platform_drive/gpio_led/device.mod := { echo  /home/interest/st_drive/platform_drive/gpio_led/device.o;  echo; } > /home/interest/st_drive/platform_drive/gpio_led/device.mod

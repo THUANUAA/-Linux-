@@ -1,0 +1,1 @@
+cmd_/home/interest/st_drive/platform_drive/timer/Module.symvers := sed 's/\.ko$$/\.o/' /home/interest/st_drive/platform_drive/timer/modules.order | scripts/mod/modpost -m -a  -o /home/interest/st_drive/platform_drive/timer/Module.symvers -e -i Module.symvers   -T -

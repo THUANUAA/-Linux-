@@ -1,0 +1,1 @@
+cmd_/home/interest/st_drive/waitlist/Module.symvers := sed 's/\.ko$$/\.o/' /home/interest/st_drive/waitlist/modules.order | scripts/mod/modpost -m -a  -o /home/interest/st_drive/waitlist/Module.symvers -e -i Module.symvers   -T -
